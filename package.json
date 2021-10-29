@@ -1,20 +1,27 @@
 {
-  "name": "crawling-chart",
-  "version": "0.1.0",
-  "private": true,
-  "scripts": {
-    "dev": "next dev",
-    "build": "next build",
-    "start": "next start",
-    "lint": "next lint"
-  },
-  "dependencies": {
-    "next": "12.0.1",
-    "react": "17.0.2",
-    "react-dom": "17.0.2"
-  },
-  "devDependencies": {
-    "eslint": "7",
-    "eslint-config-next": "12.0.1"
-  }
+    "name": "crypto-chart",
+    "version": "0.1.0",
+    "author": "hbk671104",
+    "private": true,
+    "scripts": {
+        "dev": "next dev",
+        "build": "next build",
+        "start": "next start",
+        "lint": "next lint"
+    },
+    "dependencies": {
+        "@emotion/react": "^11.5.0",
+        "@emotion/styled": "^11.3.0",
+        "@mui/material": "^5.0.6",
+        "dayjs": "^1.10.7",
+        "leancloud-storage": "^4.12.0",
+        "next": "12.0.1",
+        "react": "17.0.2",
+        "react-dom": "17.0.2",
+        "victory": "^36.1.0"
+    },
+    "devDependencies": {
+        "eslint": "7",
+        "eslint-config-next": "12.0.1"
+    }
 }
